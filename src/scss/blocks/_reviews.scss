@@ -1,0 +1,115 @@
+.swiper {
+    width: 1070px;
+    height: 700px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.slider__wrapper {
+    position: relative;
+}
+
+.reviews {
+    padding: 70px 0;
+
+    &__title {
+        color: var(--color-black);
+        font-size: 64px;
+        font-weight: 800;
+        line-height: 70px;
+        margin-bottom: 40px;
+        text-align: center;
+        max-width: 454px;
+        margin: 0 auto;
+    }
+
+    &__statistics {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+
+        &-num {
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 40px;
+            color: var(--color-black);
+            margin-right: 24px;
+        }
+
+        &-stars {
+            margin-bottom: 8px;
+        }
+
+        &-text {
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+}
+
+.swiper {
+    position: unset !important;
+}
+
+.swiper-wrapper {
+    position: unset !important;
+}
+
+.swiper-slide {
+    background-color: #ffffff;
+
+    &__wrapper {
+        box-shadow: 0px 7px 15px rgba(163, 168, 178, 0.10);
+        border-radius: 16px;
+    }
+
+    &__about {
+        padding: 0 70px 42px 43px;
+    }
+
+    &__about-info {
+        display: flex;
+        align-items: center;
+        margin: 40px 0 32px 0;
+    }
+
+    &__about-name {
+        font-size: 24px;
+        color: var(--color-black);
+        font-weight: 600;
+        line-height: 30px;
+        margin-right: 16px;
+    }
+
+    &__about-review {
+        font-size: 20px;
+        color: var(--color-black);
+        line-height: 30px;
+    }
+
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all ease-in .2s;
+
+    &::after {
+        font-size: 0;
+        font-family: none;
+    }
+
+    &:hover {
+        box-shadow: 0px 8px 20px rgba(205, 209, 214, 0.60);
+    }
+}
