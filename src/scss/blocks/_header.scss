@@ -15,7 +15,13 @@
         padding-bottom: 124px;
         max-width: 1200px;
         margin: 0 auto;
+
     }
+
+    &__wrapper {
+        transition: .5s top;
+    }
+
 }
 
 .header--fixed {
@@ -26,7 +32,6 @@
     right: 0px;
     max-width: 100%;
     margin: 0 auto;
-    color: #fff;
     background-color: #EEEFF1;
     z-index: 1000;
 }
@@ -39,7 +44,6 @@
     top: 0;
 }
 
-
 .menu {
     display: flex;
     align-items: center;
@@ -48,6 +52,7 @@
         display: flex;
         gap: 40px;
         margin-right: 40px;
+
     }
 
     &__list-item {
@@ -147,7 +152,6 @@
     width: 24px;
     height: 16px;
     position: relative;
-
 }
 
 .burger-menu span {
