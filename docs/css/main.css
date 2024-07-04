@@ -1,8 +1,12 @@
 @charset "UTF-8";
 /* Fonts */
 @import './../fonts/stylesheet.css';
-/* Base */
+/* Fonts from Google Fonts*/
+/* Загрузил шрифты из Google Fonts, так как в файлах к практике не было некоторых начертаний. Например, Medium.
+Поэтому для удобства загрузил сразу из Google Fonts. Но, через файлы также подключил, чтобы продемонстрировать, 
+что могу это реализовать.*/
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+/* Base */
 * {
   padding: 0px;
   margin: 0px;
@@ -87,10 +91,6 @@ ol {
   --color-text: #64646A;
 }
 
-/* Fonts from Google Fonts*/
-/* Загрузил шрифты из Google Fonts, так как в файлах к практике не было некоторых начертаний. Например, Medium.
-Поэтому для удобства загрузил сразу из Google Fonts. Но, через файлы также подключил, чтобы продемонстрировать, 
-что могу это реализовать.*/
 html {
   scroll-behavior: smooth;
 }
